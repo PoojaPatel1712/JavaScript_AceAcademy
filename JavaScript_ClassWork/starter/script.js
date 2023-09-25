@@ -62,5 +62,39 @@ const yearLeft = (birthYear) => {
 
 console.log(yearLeft(2002))
 
+let hasDriverLicense = false;//boolean
+const passTest = true;
+
+if(passTest){
+    hasDriverLicense = true
+}
+if(hasDriverLicense){
+    console.log("I can drive")
+}
+
+const friends1 = 'Tom';
+const friends2 = 'Jerry';
+
+const friends = ['Tom','Jerry','Sam']; //assigning the values in an array
+console.log(friends)
+console.log(friends[0]);
+console.log(friends[1]);
+
+console.log(friends.length);// no of elements, counts from 1
+console.log(friends.length-1);// if we want to know the last index
+
+// friends[2]="Jay";
+// friends[3]="Jay";
+friends[4]="Jay";  // will provide empty at 3rd index
+console.log(friends);
+
+const newLength = friends.push('Alice');
+console.log(friends);
+
+friends.unshift('John');
+console.log(friends);
+
+friends.pop();
+console.log(friends);
 
 
