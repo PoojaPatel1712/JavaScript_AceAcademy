@@ -18,7 +18,7 @@ This repository contains a collection of JavaScript classwork exercises and a pr
   - **theme-clock**: Clock with themes.
   - **tweet-character-starter**: Twitter character counter starter code.
 
-- **ProjectWork**: Project folder containing a complete web application.
+- **ProjectWork**: Project folder containing a complete web application "Image Search App".
   - **index.html**: Main HTML file.
   - **script.js**: JavaScript logic for the project.
   - **style.css**: Styling for the project.
